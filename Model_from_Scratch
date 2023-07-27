@@ -1,0 +1,1 @@
+This file contains the TorchSig Data Generation and a YOLOv3 Model built and train with this dataset. Model accuracy is near 0.8.
