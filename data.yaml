@@ -1,0 +1,8 @@
+path: "../Detection"
+
+train: ../train/images
+test: ../valid/images
+
+nc: 1
+
+names: ['signal']
