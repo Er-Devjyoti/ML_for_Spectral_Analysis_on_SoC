@@ -1,0 +1,8 @@
+path: "..ML_for_Spectral_Analysis_on_SoC/Data"
+
+train: ..train/images
+val: ..test/images
+
+nc: 1
+
+names: ['signal']
