@@ -23,10 +23,11 @@ For the Spectrum Analysis, please clone this Repo and Run the files accordingly 
 
 Note: the Dataset generation uses Torchsig Toolkit Please refer to the Torchsig WB: https://github.com/torchdsp/torchsig installation process to proceed further.
 
-## Installation
+## Step 1: Installation of TorchSig Toolkit
 ---
 Clone the `torchsig` repository and simply install using the following commands:
 ```
+git clone https://github.com/TorchDSP/torchsig.git
 cd torchsig
 pip install .
 ```
