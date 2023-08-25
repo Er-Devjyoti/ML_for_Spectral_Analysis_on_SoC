@@ -1,4 +1,18 @@
-# ML_for_Spectral_Analysis_on_SoC
+<p align="left">
+    <picture>
+        <img src="https://www.strath.ac.uk/media/1newwebsite/documents/brand/strath_main.jpg" width="35%"/>
+    </picture>
+    <span style= "font-size: 50pt; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project powered by:&nbsp;&nbsp;&nbsp;&nbsp;</span>             
+    <picture>
+        <img src="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/xilinx-logo.png" width="28%"/>
+    </picture>
+</p>
+
+---
+
+# Machine Learning for Spectral Analysis on SoC
+---
+
 Signal Recognition and Classification using Object Detection Algorithms and deployment on a SoC
 
 For the Spectrum Analysis, please clone this Repo and Run the files accordingly in the following order:
@@ -8,3 +22,11 @@ For the Spectrum Analysis, please clone this Repo and Run the files accordingly 
 3. model.ipynb
 
 Note: the Dataset generation uses Torchsig Toolkit Please refer to the Torchsig WB: https://github.com/torchdsp/torchsig installation process to proceed further.
+
+## Installation
+---
+Clone the `torchsig` repository and simply install using the following commands:
+```
+cd torchsig
+pip install .
+```
