@@ -9,7 +9,7 @@
 </p>
 
 <h1 align="center">
-  Machine Learning for Spectral Analysis on SoC
+  Machine Learning for Spectral Analysis on FPGA
 </h1>
 
 ---
