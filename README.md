@@ -1,4 +1,4 @@
-<br>
+
 <br>
 <p align="left">
     <picture>
@@ -9,7 +9,7 @@
         <img src="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/xilinx-logo.png" width="15%"/>
     </picture>
 </p>
-<br>
+
 <h1 align="Center">
   Machine Learning for Spectral Analysis on SoC
 </h1>
