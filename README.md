@@ -83,7 +83,10 @@ For more information on TorchSig please explore the TorchSig GitHub Page: https:
 1. Go to the **'Data Analysis and Preprocessing/Data Analysis.ipynb'** from our repository and run this code to analyse the Dataset.
 3. To create the YOLO dataset for detection tasks (1 class - signal) for TorchSig WBSig53 data, please run the required code in **'Dataset Generation/ Detection Dataset Creation.ipynb'**. 
 4. To create the YOLO dataset for classification tasks (53 signal classes) for TorchSig WBSig53 data, please run the required code in **'Dataset Generation/ Classification Dataset Creation.ipynb'**.
-5. To create random inference set only containing the images of the spectrogram please run the required code in **'Dataset Generation/ Test-set Creation.ipynb'** folder according to your need.
+5. To create a random inference set only containing the images of the spectrogram please run the required code in **'Dataset Generation/ Test-set Creation.ipynb'** folder according to your need.
+
+Note: We are using the Visualizer class that utilizes parallel processing and hence requires heavy usage of GPU to generate parallel Data. 
+
 
 ## Step 1: Installation of Ultralytics YOLOv5 Object Detection Model
 
