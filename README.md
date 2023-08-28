@@ -9,23 +9,23 @@
 </p>
 
 <h1 align="center">
-  Machine Learning for Spectral Analysis on FPGA
+  Machine Learning for Spectral Analysis on System-on-Chip (SoC)
 </h1>
 
 ---
 
-Signal Recognition and Classification using Object Detection Algorithms and deployment on a SoC
+This project is a research initiative to present an exhilarating challenge at the intersection of advanced technology domains. Its core mission involves deploying a sophisticated Convolutional Neural Network (CNN)-based model, which has been designed not just for recognizing signal spectrums but also for the intricate task of signal detection using an object detection algorithm. By leveraging real-time antenna and state-of-the-art Analog-to-Digital Conversion (ADC) technology, our aim is to harness the formidable capabilities of machine learning to decode the complexities of the radio frequency (RF) spectrum with a remarkable degree of precision and operational efficiency. 
 
-For the Spectrum Analysis, please clone this Repo and Run the files accordingly in the following order:
+This project also demonstrates our groundbreaking intention to deploy this comprehensive model on the cutting-edge AMD-Xilinx RFSoC platform. This step represents a pioneering endeavour in the field, as it promises to unlock the untapped potential for substantial acceleration and real-time processing in RF signal recognition through AI. This fusion of artificial intelligence and RF technology is poised not only to advance our comprehension and utilization of the RF spectrum but also to underscore the remarkable convergence of advanced hardware and artificial intelligence in the dynamic arena of wireless communications.
 
-1. Dataset Creation
-2. CSV generator
-3. model.ipynb
+Our prime research focus, however, delves even deeper into the realms of optimization. We have dedicated significant effort to Quantization analysis using Vitis AI, ensuring that our model can operate with utmost efficiency and reduced computational overhead. It's worth noting that we have successfully completed this entire project, and our methods and findings are meticulously documented, making it possible for others in the field to reproduce our results by following the comprehensive steps outlined in our research documentation. This marks a significant contribution to the broader scientific community, advancing the frontier of RF signal recognition and AI-accelerated processing using the AMD-Xilinx RFSoC hardware accelerator.
 
-Note: the Dataset generation uses Torchsig Toolkit Please refer to the Torchsig WB: https://github.com/torchdsp/torchsig installation process to proceed further.
 
 ## Getting Started
 
+In a pioneering move, our project takes a unique approach by harnessing RoCm (Radeon Open Compute) as the GPU accelerator, distinct from the commonly used CUDA framework. This choice not only showcases the versatility and adaptability of our AI model but also contributes to the diversification of available tools and platforms for researchers in the field. Furthermore, the deployment of this advanced model is achieved on the VCK5000 Versal Development Card, an adaptive SoC architecture. This hardware choice represents a significant leap forward in terms of its processing power and adaptability to AI-driven tasks in RF signal recognition.
+
+By opting for open-source GPU acceleration through RoCm and the deployment of the VCK5000, we not only promote an ecosystem of collaboration and innovation but also set a precedent for researchers to explore new horizons in AI and RF signal processing. This comprehensive approach not only advances the state-of-the-art in RF signal recognition but also empowers the wider research community by providing valuable insights, methodologies, and a robust framework for future exploration and advancements in this rapidly evolving field. The long-term impact is a more collaborative, adaptable, and innovative research ecosystem, poised to yield breakthroughs with far-reaching implications in wireless communications, AI, and beyond.
 
 ---
 ## Step 1: Local System Check
