@@ -8,8 +8,8 @@
     </picture>
 </p>
 
-<h1 align="left">
-  Machine Learning for Spectral Analysis on System-on-Chip
+<h1 align="Center">
+  Machine Learning for Spectral Analysis on SoC
 </h1>
 
 This project is a research initiative to present an exhilarating challenge at the intersection of advanced technology domains. Its core mission involves deploying a sophisticated Convolutional Neural Network (CNN)-based model, which has been designed not just for recognizing signal spectrums but also for the intricate task of signal detection using an object detection algorithm. By leveraging real-time antenna and state-of-the-art Analog-to-Digital Conversion (ADC) technology, our aim is to harness the formidable capabilities of machine learning to decode the complexities of the radio frequency (RF) spectrum with a remarkable degree of precision and operational efficiency. 
