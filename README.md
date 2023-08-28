@@ -38,9 +38,9 @@ This Repository (repo) allows to reproduce the results obtained and contains the
 3. YOLO Optimization Algorithm for both Pruning and Quantization (8-bit) using Vitis AI.
 4. Compile the YOLOv5m model ready to deploy on an AMD-based SoC/ FPGA board (here we have used DPUCVDX8H architecture).
 
-Note: We have only included YOLO models for Quantization phases because the models are superior in nature and perform on par with other one-stage object detection. 
+Note: We have only included YOLO models for the Quantization phases because the models are superior in nature and perform on par with other one-stage object detection. 
 
-## Step 1: Local System Check
+## Step 1: Clone this Repository:
 
 ---
 
@@ -51,7 +51,18 @@ To run a 'Hello World' system Check for RoCm/ CUDA, please download the SYSTEM C
 If RoCm/ Cuda is missing or not working please check the drivers and troubleshoot the necessary dependencies.
 
 
-## Step 2: Installation of TorchSig Toolkit
+## Step 2: Local System Check
+
+---
+
+This research project is computationally intensive and a high-end GPU to run the programs is a must. 
+
+To run a 'Hello World' system Check for RoCm/ CUDA, please download the SYSTEM CHECK file: https://github.com/Er-Devjyoti/ML_for_Spectral_Analysis_on_SoC/blob/main/YOLOv5/SYSTEMCHECK.ipynb, from this repo and run this file in your local system.
+
+If RoCm/ Cuda is missing or not working please check the drivers and troubleshoot the necessary dependencies.
+
+
+## Step : Installation of TorchSig Toolkit
 
 ---
 
