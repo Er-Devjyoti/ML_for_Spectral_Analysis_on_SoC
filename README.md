@@ -29,8 +29,16 @@ Our prime research focus, however, delves even deeper into the realms of optimiz
 
 In a pioneering move, our project takes a unique approach by harnessing RoCm (Radeon Open Compute) as the GPU accelerator, distinct from the commonly used CUDA framework. This choice not only showcases the versatility and adaptability of our AI model but also contributes to the diversification of available tools and platforms for researchers in the field. Furthermore, the deployment of this advanced model is achieved on the VCK5000 Versal Development Card, an adaptive SoC architecture. This hardware choice represents a significant leap forward in terms of its processing power and adaptability to AI-driven tasks in RF signal recognition.
 
-By opting for open-source GPU acceleration through RoCm and the deployment of the VCK5000, we not only promote an ecosystem of collaboration and innovation but also set a precedent for researchers to explore new horizons in AI and RF signal processing. This comprehensive approach not only advances the state-of-the-art in RF signal recognition but also empowers the wider research community by providing valuable insights, methodologies, and a robust framework for future exploration and advancements in this rapidly evolving field. The long-term impact is a more collaborative, adaptable, and innovative research ecosystem, poised to yield breakthroughs with far-reaching implications in wireless communications, AI, and beyond.
+By opting for open-source GPU acceleration through RoCm and the deployment of the VCK5000, we not only promote an ecosystem of collaboration and innovation but also set a precedent for researchers to explore new horizons in AI and RF signal processing. This comprehensive approach not only advances the state-of-the-art in RF signal recognition but also empowers the wider research community by providing valuable insights, methodologies, and a robust framework for future exploration and advancements in this rapidly evolving field. The long-term impact is a more collaborative, adaptable, and innovative research ecosystem, poised to yield breakthroughs with far-reaching implications in wireless communications, AI, and beyond. 
 
+This Repository (repo) allows to reproduce the results obtained and contains the following codebase: 
+
+1. The YOLO-based Data generation procedure for TorchSig Toolkit.
+2. Experimental analysis of the varied object detection models. 
+3. YOLO Optimization Algorithm for both Pruning and Quantization (8-bit) using Vitis AI.
+4. Compile the YOLOv5m model ready to deploy on an AMD-based SoC/ FPGA board (here we have used DPUCVDX8H architecture).
+
+Note: We have only included YOLO models for Quantization phases because the models are superior in nature and perform on par with other one-stage object detection. 
 
 ## Step 1: Local System Check
 
