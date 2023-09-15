@@ -88,7 +88,7 @@ For more information on TorchSig please explore the TorchSig GitHub Page: https:
 Note: We are using the Visualizer class that utilizes parallel processing and hence requires heavy usage of GPU to generate parallel Data. 
 
 
-## Step 1: Installation of Ultralytics YOLOv5 Object Detection Model
+### Step 3: Installation of Ultralytics YOLOv5 Object Detection Model
 
 ---
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 I would recommend exploring more about the Ultralytics Hub through GitHub Page: https://github.com/ultralytics/yolov5/tree/master
 
 
-## Step 4: Installation of Vitis AI Docker
+### Step 4: Installation of Vitis AI Docker
 
 ---
 
