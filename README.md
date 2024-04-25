@@ -114,4 +114,20 @@ Get a local copy of Vitis AI by following the command:
 git clone https://github.com/Xilinx/Vitis-AI
 ```
 
+## Model Testing and Development:
 
+---
+Three state-of-the-art low-latency object detection architectures: DETR, YOLOv3 and YOLOv5 are trained and evaluated. However, only models with Vitis AI supporting layers are finalized.
+Note: The DETR use EfficientNet as a backbone but the XCiT-nano (neck) layer is not supported by the Vitis AI and hence not included. 
+
+### Step 1: Explore all the models used in this project like YOLOv3, YOLOv5 and Image Transformer by cloning the respective folder in this repo to the same environment of your setup.
+### Step 2: Run, test and Tune each individual model one by one to get the best model performance. 
+### Step 3: Pruning and Quantization can be achieved by using Visti AI (If you want to achieve the same result as mine try to run the Quantization.py in your setup, however this process is very resource-intensive and might require mGPU or HPCC). [Please Refer to the documentation]
+
+### Step4: For the Deployment phase try to read the Vitis AI Manual Guide for Adaptive Compute Acceleration Platform (ACAP): https://docs.amd.com/r/1.4-English/ug1354-xilinx-ai-sdk/ReID-Detection
+
+
+## ETH Zurich partnered HACC Setup:
+
+---
+This Project was greatly supported by ETH Zurich Partnered with AMD Xilinx as the major resources and powerhouse (HACC) was provided by them. To know more about how to setup and use this HPC please visit: https://github.com/fpgasystems/hacc/blob/main/docs/first-steps.md
